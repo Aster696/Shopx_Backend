@@ -22,8 +22,8 @@ public class Email {
 	public void Sendmail() {
 		try {
 			System.out.println("============Mail============");
-			final String username = "email";
-			final String password = "password";
+			final String username = "email";//Enter your email
+			final String password = "password";//Enter your password
 			
 			Properties props = new Properties();
 			props.put("mail.smtp.auth", "true");
