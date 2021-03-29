@@ -33,7 +33,7 @@ public class UserTest {
 	public void addUser() {
 		User user = new User();
 		user.setUsername("raj");
-		user.setEmail("raj@gmail.com");
+		user.setEmail("xxx@gmail.com");
 		user.setContact("37483748");
 		user.setPassword("raj");
 		//user.setAuthority("user");
@@ -47,7 +47,7 @@ public class UserTest {
 		User user = new User();
 		user.setId(2);
 		user.setUsername("Alister");
-		user.setEmail("alister@gmail.com");
+		user.setEmail("xxx@gmail.com");
 		user.setContact("37483748");
 		user.setPassword("alister");
 		
@@ -70,7 +70,7 @@ public class UserTest {
 	@Ignore
 	public void displayUserByEmail() {
 		try {
-			assertNotNull(userServiceImpl.displayUserByEmail("aster@gmail.com"));
+			assertNotNull(userServiceImpl.displayUserByEmail("xxx@gmail.com"));
 			System.out.println("success");
 		} catch (Exception e) {
 			System.out.println(e);
